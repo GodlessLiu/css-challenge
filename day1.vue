@@ -1,5 +1,7 @@
 <script lang="ts" setup>
-
+definePageMeta({
+  layout: "css",
+});
 useHead({
   title: "Css Challenge - Switch Tab"
 })
@@ -23,7 +25,8 @@ useHead({
       <a href="#" class="hl-main-loadless" data-open="false">收起</a>
     </div>
   </main>
-  <CssChallengeFooter :href="'ww.baidu.com'" :date="'2023/7/2'"></CssChallengeFooter>
+  <CssChallengeFooter :href="'https://github.com/GodlessLiu/css-challenge/blob/main/day1.vue'" :date="'2023/7/2'">
+  </CssChallengeFooter>
 </template>
 
 
